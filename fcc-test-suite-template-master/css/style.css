@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.background {
+    background: black;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: grey;
+}
+
+.firstsection {
+    background-color: grey;
+    padding: 30px ;
+}
+
+.secondsection {
+    background-color: blue;
+    padding: 30px ;
+}
+
+.thirdsection {
+    background-color: green;
+    padding: 30px ;
+}
+
+.fourthsection {
+    background-color: yellow;
+    padding: 30px ;
+}
+
+.fifthsection {
+    background-color: lightblue;
+    padding: 30px ;
+}
